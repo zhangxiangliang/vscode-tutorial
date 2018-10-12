@@ -2,7 +2,7 @@
 
 ### Activity Bar - 活动栏
 
-编辑器最左边的栏叫做`Activity Bar`即`活动栏`，从上到下提供了5个默认编辑器快捷方式 分别是 Explorer、Search、Source Control、Debug、Extensions。点击这几个快捷方式能分别打开对应的功能并显示在 \`边栏\` 上。有时候安装一些插件也会在这边生成新的快捷方式。
+编辑器最左边的栏叫做 `活动栏`，从上到下提供了5个默认编辑器快捷方式 分别是 Explorer、Search、Source Control、Debug、Extensions。点击这几个快捷方式能分别打开对应的功能并显示在 \`边栏\` 上。有时候安装一些插件也会在这边生成新的快捷方式。
 
 隐藏`活动栏`可以打开`命令面板`输入`View: Toggle Activity Bar Visibility`来隐藏活动栏。
 
@@ -38,8 +38,21 @@
 
 如果想要快速将边栏切换到 扩展 可以使用`control+ shift + x`。
 
-## Sidebar
-活动栏右边的栏目叫做 `Side Bar` 即 `边栏`，它会随着选择的快捷方式而变化。
+## Side Bar - 边栏
+活动栏右边的栏目叫做边栏，它会随着选择的快捷方式而变化。
 
 隐藏 `边栏` 可以打开 `命令面板` 输入 `View: Toggle Side Bar Visibility` 来隐藏边栏，也可以使用快捷键 `command + b` 来实现隐藏。
 
+## Status Bar - 状态栏
+编辑器最底部的栏目叫做状态栏目，用于展示所在分支、Debug 情况、行号、编码、空格缩进等信息。
+
+隐藏 `状态栏` 可以打开 `命令面板` 输入 `View: Toggle Status Bar Visibility` 来隐藏状态栏。
+
+## Pannel - 面板
+面板中包括了调试控制台、终端等功能。
+
+默认面板是隐藏起来的，可以把鼠标放在状态栏后按住往上拖拉来显示。
+
+快速打开 终端 可以使用快捷键 <code>command + `</code>。
+
+快速打开 调试控制台 可以使用快捷键 `control+ shift + y`。
