@@ -17,11 +17,9 @@
     * [用户设置自定义](setting.md)
     * [代码块自定义](snippets.md)
 
-* 源码管理
-    * [提交修改](git-commit.md)
-    * [撤回提交](git-revert.md)
-    * [分支操作](git-branch.md)
-    * [推送和拉取代码](git-pull-and-push.md)
+* 命令面板
+    * [源码管理器](source-control.md)
+    * [搜索](search.md)
 
 * 扩展推荐
     * [File Utils - 文件工具](extension-file-utils.md)
