@@ -1,6 +1,7 @@
 # 目录
 
-* [自述](README.md)
+* 基础
+    * [自述](README.md)
     * [初识编辑器](base.md)
 
 * 文件操作
@@ -9,8 +10,7 @@
     * [分组文件](group-file.md)
 
 * 编辑技巧
-    * [常用编辑技巧](editor-file.md)
-    * [进阶编辑技巧](advanced-editor-file.md)
+    * [编辑技巧](editor-file.md)
 
 * 配置编辑器
     * [快捷键自定义](keymap.md)
