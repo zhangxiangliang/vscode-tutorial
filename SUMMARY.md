@@ -20,3 +20,4 @@
 * 扩展推荐
     * [File Utils - 文件工具](extension-file-utils.md)
     * [Emmet - HTML与CSS快速生成工具](extension-emmet.md)
+    * [EditorConfig - 编辑规范配置工具](extension-editor-config.md)
