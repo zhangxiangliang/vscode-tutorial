@@ -12,7 +12,7 @@
 * 编辑与配置
     * [编辑技巧](editor-file.md)
     * [配置编辑器](config.md)
-    * [代码块自定义](snippets.md)
+    * [代码段自定义](snippets.md)
 
 * 命令面板
     * [源码管理器](source-control.md)
