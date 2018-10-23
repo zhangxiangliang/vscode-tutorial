@@ -10,6 +10,10 @@
 
 使用`command + shift + x`打开扩展，搜索`EditorConfig for Visual Studio Code`插件并安装后重启编辑器。
 
+## 资源
+
+* [官方网站](https://github.com/editorconfig/editorconfig/)
+
 ## 使用
 
 当编辑某一个文件时EditorConfig通过读取`.editorconfig`中的配置的规则来对代码进行格式化，读取的过程会一直往上层目录搜索直到找到`.editorconfig`中配置了`root = true` 为止。越接近的`.editorconfig`配置优先级别越高。`.editorconfig` 使用 ini 格式。
