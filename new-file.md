@@ -12,14 +12,5 @@
 
 如果不喜欢双手离开键盘，可以对 `new file` 这个操作进行快捷键设置。使用 `command + k + s` 可以打开 `快捷键设置工具`，在搜索栏输入 `explorer.newFile`，点击左侧的加号输入你喜欢的快捷键回车保存（个人的配置为 A 键）。使用 `command + w` 关闭当前快捷键设置工具标签页。现在可以在资源管理器选择需要的目录后使用快捷键进行创建文件。
 
-## 命令面板法
-使用 `command + shift + x` 打开扩展，输入 `File Utils` 在搜索结果中点击 `install` 或者 `安装`。安装完扩展后重新启动编辑器就可以使用啦。
-
-File Utils 提供了复制、删除、创建文件等操作。详细命令可以打开命令面板输入 `file:` 就可以看到 File Utils 提供的所用命令了。
-
-输入 `file: New File Relative to Project Root` 可以相对于当前根目录创建文件。
-输入 `file: New File Relative to Current View` 可以相对于当前打开的文件路径创建文件。
-
-
-## 关联文章
-* [初识编辑器](./base.md)
+## File Utils
+File Utils 提供了复制、删除、创建文件等操作，使用方法可以查看 [File Utils - 文件工具](extension-file-utils.md)。
