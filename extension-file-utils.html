@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>代码段自定义 · VSCode 教程</title>
+        <title>File Utils - 文件工具 · VSCode 教程</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,8 +57,8 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
+    <link rel="next" href="extension-emmet.html" />
     
-    <link rel="prev" href="config.html" />
     
 
     </head>
@@ -230,7 +230,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.3.3" data-path="snippets.html">
+        <li class="chapter " data-level="1.3.3" data-path="snippets.html">
             
                 <a href="snippets.html">
             
@@ -294,7 +294,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.5.1" data-path="extension-file-utils.html">
+        <li class="chapter active" data-level="1.5.1" data-path="extension-file-utils.html">
             
                 <a href="extension-file-utils.html">
             
@@ -368,7 +368,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >代码段自定义</a>
+        <a href="." >File Utils - 文件工具</a>
     </h1>
 </div>
 
@@ -383,32 +383,23 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x4EE3;&#x7801;&#x6BB5;&#x81EA;&#x5B9A;&#x4E49;">&#x4EE3;&#x7801;&#x6BB5;&#x81EA;&#x5B9A;&#x4E49;</h1>
-<p>&#x7F16;&#x8F91;&#x4EE3;&#x7801;&#x65F6;&#x7ECF;&#x5E38;&#x4F1A;&#x4E00;&#x76F4;&#x91CD;&#x590D;&#x7C7B;&#x4F3C;&#x7684;&#x4EE3;&#x7801;&#x6BB5;&#xFF0C;&#x6BD4;&#x5982;&#xFF1A;</p>
-<pre><code>function PushMeTop() {
-    // &#x5404;&#x79CD;&#x5404;&#x6837;&#x7684;&#x4EE3;&#x7801;
-}
-</code></pre><p>&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x628A;&#x516C;&#x5171;&#x7684;&#x90E8;&#x5206;&#x62BD;&#x53D6;&#x51FA;&#x6765;&#x4E3A; <code>snippets</code>&#xFF0C;&#x5F53;&#x6253;&#x51FA;&#x5173;&#x952E;&#x8BCD;&#x7684;&#x65F6;&#x5019;&#x5373;&#x53EF;&#x5FEB;&#x901F;&#x9009;&#x62E9;&#x9700;&#x8981;&#x7684;&#x4EE3;&#x7801;&#x6BB5;&#x3002;&#x751A;&#x81F3;&#x53EF;&#x4EE5;&#x5BF9;&#x4EE3;&#x7801;&#x6BB5;&#x8FDB;&#x884C;&#x53D8;&#x91CF;&#x5316; &#x66F4;&#x52A0;&#x7075;&#x6D3B;&#x548C;&#x590D;&#x7528;&#x4EE3;&#x7801;&#x5757;&#x3002;</p>
-<p>&#x4F7F;&#x7528; <code>command + shift + p</code> &#x6253;&#x5F00;&#x547D;&#x4EE4;&#x9762;&#x677F;&#x8F93;&#x5165; <code>&gt;Preferences: Configure User Snippets</code> &#x56DE;&#x8F66;&#x540E;&#x5373;&#x53EF;&#x770B;&#x5230;&#x4E00;&#x7CFB;&#x5217;&#x7684;&#x8BED;&#x8A00;&#x9009;&#x9879;&#x3002;&#x9009;&#x62E9;&#x4E00;&#x4E2A;&#x4EE3;&#x7801;&#x6BB5;&#x6240;&#x5C5E;&#x7684;&#x8BED;&#x8A00;&#x6216;&#x8005;&#x662F;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x65B0;&#x7684;&#x5206;&#x7C7B;&#x540E;&#x5C31;&#x53EF;&#x4EE5;&#x5F00;&#x59CB;&#x7F16;&#x8F91;&#x4EE3;&#x7801;&#x6BB5;&#x4E86;&#x3002;</p>
-<p>&#x901A;&#x8FC7; JSON &#x7684;&#x683C;&#x5F0F;&#x6765;&#x5B9A;&#x4E49;&#x4EE3;&#x7801;&#x6BB5;&#xFF0C;&#x4F8B;&#x5B50;&#x5982;&#x4E0B;&#xFF1A;</p>
-<pre><code>{
-    // &#x7247;&#x6BB5;&#x540D;
-    &quot;Print to console&quot;: {
-
-        // &#x667A;&#x80FD;&#x63D0;&#x793A;&#x524D;&#x7F00;
-        &quot;prefix&quot;: &quot;log&quot;,
-
-        // &#x4EE3;&#x7801;&#x6BB5;&#x5185;&#x5BB9;
-        &quot;body&quot;: [
-            &quot;console.log(&apos;$1&apos;);&quot;,
-            &quot;$2&quot;
-        ],
-
-        // &#x4EE3;&#x7801;&#x6BB5;&#x63CF;&#x8FF0;
-        &quot;description&quot;: &quot;Log output to console&quot;
-    }
-}
-</code></pre><p>&#x4E0A;&#x9762;&#x4EE3;&#x7801;&#x7247;&#x6BB5;&#x4E2D;&#x4F7F;&#x7528;&#x4E86; <code>$1</code> &#x548C; <code>$2</code> &#x8868;&#x793A;&#x5F53;&#x4F7F;&#x7528;&#x4EE3;&#x7801;&#x6BB5;&#x65F6;&#x6309;&#x4E0B; <code>tab</code> &#x65F6;&#x4F1A;&#x6309;&#x7167;&#x5E8F;&#x53F7;&#x987A;&#x5E8F;&#x8DF3;&#x8F6C;&#x5230;&#x5BF9;&#x5E94;&#x7684;&#x4F4D;&#x7F6E;&#x3002;&#x5982;&#x679C;&#x9700;&#x8981;&#x4F7F;&#x7528;&#x9ED8;&#x8BA4;&#x53D8;&#x91CF;&#x540D;&#x53EF;&#x4EE5;&#x4F7F;&#x7528; <code>${id:variable}</code> &#x7684;&#x5F62;&#x5F0F;&#x6765;&#x5B9E;&#x73B0;&#x4F8B;&#x5982; ${1:hello}&#xFF0C;&#x5BF9;&#x4E8E;&#x540C;&#x4E00;&#x4E2A;&#x53D8;&#x91CF;&#x540D;&#x5728;&#x91CD;&#x65B0;&#x7F16;&#x8F91;&#x7684;&#x65F6;&#x5019;&#x4F1A;&#x540C;&#x6B65;&#x64CD;&#x4F5C;&#x3002;</p>
+                                <h1 id="file-utils---&#x6587;&#x4EF6;&#x5DE5;&#x5177;">File Utils - &#x6587;&#x4EF6;&#x5DE5;&#x5177;</h1>
+<h2 id="&#x7B80;&#x4ECB;">&#x7B80;&#x4ECB;</h2>
+<p><code>VSCode</code> &#x672C;&#x8EAB;&#x4E5F;&#x63D0;&#x4F9B;&#x4E86;&#x6587;&#x4EF6;&#x64CD;&#x4F5C;&#xFF0C;&#x4F46;&#x662F;&#x9700;&#x8981;&#x79BB;&#x5F00;&#x952E;&#x76D8;&#x4F7F;&#x7528;&#x9F20;&#x6807;&#x5728; <code>&#x8D44;&#x6E90;&#x7BA1;&#x7406;&#x5668;</code> &#x4E2D;&#x8FDB;&#x884C;&#x64CD;&#x4F5C;&#xFF0C;&#x5728; <a href="new-file.html">&#x65B0;&#x5EFA;&#x6587;&#x4EF6;</a> &#x4E2D;&#x7B80;&#x5355;&#x7684;&#x8FC7;&#x4E86; <code>File Utils</code> &#x662F;&#x4E00;&#x6B3E;&#x6587;&#x4EF6;&#x76F8;&#x5173;&#x63D2;&#x4EF6;&#xFF0C;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x547D;&#x4EE4;&#x9762;&#x677F;&#x8FDB;&#x884C;&#x5FEB;&#x901F;&#x7684;&#x521B;&#x5EFA;&#x3001;&#x590D;&#x5236;&#x3001;&#x79FB;&#x52A8;&#x3001;&#x91CD;&#x547D;&#x540D;&#x3001;&#x5220;&#x9664; &#x6587;&#x4EF6;&#x6216;&#x76EE;&#x5F55;&#x3002;</p>
+<h2 id="&#x8D44;&#x6E90;">&#x8D44;&#x6E90;</h2>
+<ul>
+<li><a href="https://github.com/sleistner/vscode-fileutils" target="_blank">&#x5B98;&#x65B9;&#x7F51;&#x7AD9;</a></li>
+</ul>
+<h2 id="&#x5B89;&#x88C5;">&#x5B89;&#x88C5;</h2>
+<p>&#x4F7F;&#x7528;<code>command + shift + x</code>&#x6253;&#x5F00;&#x6269;&#x5C55;&#xFF0C;&#x641C;&#x7D22;<code>File Utils</code>&#x63D2;&#x4EF6;&#x5E76;&#x5B89;&#x88C5;&#x540E;&#x91CD;&#x542F;&#x7F16;&#x8F91;&#x5668;&#x3002;</p>
+<h2 id="&#x4F7F;&#x7528;">&#x4F7F;&#x7528;</h2>
+<p>&#x4F7F;&#x7528;<code>command + shift + x</code>&#x6253;&#x5F00;&#x6269;&#x5C55;&#x540E;&#xFF0C;&#x8F93;&#x5165;&#x4EE5;&#x4E0B;&#x547D;&#x4EE4;&#xFF1A;</p>
+<ul>
+<li>&#x8F93;&#x5165; <code>File: Delete</code> &#x53EF;&#x4EE5;&#x5220;&#x9664;&#x5F53;&#x524D;&#x6253;&#x5F00;&#x7684;&#x6587;&#x4EF6;&#x3002;</li>
+<li>&#x8F93;&#x5165; <code>File: New File Relative to Project Root</code> &#x53EF;&#x4EE5;&#x76F8;&#x5BF9;&#x4E8E;&#x5F53;&#x524D;&#x6839;&#x76EE;&#x5F55;&#x521B;&#x5EFA;&#x6587;&#x4EF6;&#x3002;</li>
+<li>&#x8F93;&#x5165; <code>File: New File Relative to Current View</code> &#x53EF;&#x4EE5;&#x76F8;&#x5BF9;&#x4E8E;&#x5F53;&#x524D;&#x6253;&#x5F00;&#x7684;&#x6587;&#x4EF6;&#x8DEF;&#x5F84;&#x521B;&#x5EFA;&#x6587;&#x4EF6;&#x3002;</li>
+<li>&#x8F93;&#x5165; <code>File: Move</code> &#x4F1A;&#x663E;&#x793A;&#x5F53;&#x524D;&#x6253;&#x5F00;&#x6587;&#x4EF6;&#x7684;&#x8DEF;&#x5F84;&#xFF0C;&#x53EF;&#x4EE5;&#x4FEE;&#x6539;&#x6587;&#x4EF6;&#x8DEF;&#x5F84;&#x6765;&#x5B9E;&#x73B0;&#x79FB;&#x52A8;&#x6587;&#x4EF6;&#x548C;&#x4FEE;&#x6539;&#x6587;&#x4EF6;&#x3002;</li>
+</ul>
 
                                 
                                 </section>
@@ -436,10 +427,10 @@
 
             
                 
-                <a href="config.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 配置编辑器">
-                    <i class="fa fa-angle-left"></i>
-                </a>
                 
+                <a href="extension-emmet.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Emmet - HTML与CSS快速生成工具">
+                    <i class="fa fa-angle-right"></i>
+                </a>
                 
             
         
@@ -448,7 +439,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"代码段自定义","level":"1.3.3","depth":2,"next":{"title":"命令面板","level":"1.4","depth":1,"ref":"","articles":[{"title":"源码管理器","level":"1.4.1","depth":2,"path":"source-control.md","ref":"source-control.md","articles":[]}]},"previous":{"title":"配置编辑器","level":"1.3.2","depth":2,"path":"config.md","ref":"config.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"VSCode 教程","language":"zh-hans","gitbook":"*","description":"帮助大家了解和使用这款代码编辑器"},"file":{"path":"snippets.md","mtime":"2018-10-23T08:22:17.313Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-10-25T14:18:09.211Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"File Utils - 文件工具","level":"1.5.1","depth":2,"next":{"title":"Emmet - HTML与CSS快速生成工具","level":"1.5.2","depth":2,"path":"extension-emmet.md","ref":"extension-emmet.md","articles":[]},"previous":{"title":"扩展推荐","level":"1.5","depth":1,"ref":"","articles":[{"title":"File Utils - 文件工具","level":"1.5.1","depth":2,"path":"extension-file-utils.md","ref":"extension-file-utils.md","articles":[]},{"title":"Emmet - HTML与CSS快速生成工具","level":"1.5.2","depth":2,"path":"extension-emmet.md","ref":"extension-emmet.md","articles":[]},{"title":"EditorConfig - 编辑规范配置工具","level":"1.5.3","depth":2,"path":"extension-editor-config.md","ref":"extension-editor-config.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"VSCode 教程","language":"zh-hans","gitbook":"*","description":"帮助大家了解和使用这款代码编辑器"},"file":{"path":"extension-file-utils.md","mtime":"2018-10-25T14:15:07.041Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-10-25T14:18:09.211Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
