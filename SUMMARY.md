@@ -18,6 +18,8 @@
     * [源码管理器](source-control.md)
 
 * 扩展推荐
+    * [Bracket Pair Colorizer - 括号美化](extension-bracket-pair-colorizer.md)
+    * [DotENV - .env语法高亮](extension-dot-env.md)
     * [File Utils - 文件工具](extension-file-utils.md)
     * [Emmet - HTML与CSS快速生成工具](extension-emmet.md)
     * [EditorConfig - 编辑规范配置工具](extension-editor-config.md)
