@@ -4,13 +4,13 @@
 
 `VSCode` 本身也提供了文件操作，但是需要离开键盘使用鼠标在 `资源管理器` 中进行操作，在 [新建文件](new-file.md) 中简单的过了 `File Utils` 是一款文件相关插件，可以通过命令面板进行快速的创建、复制、移动、重命名、删除 文件或目录。
 
-## 资源
-
-* [官方网站](https://github.com/sleistner/vscode-fileutils)
-
 ## 安装
 
 使用`command + shift + x`打开扩展，搜索`File Utils`插件并安装后重启编辑器。
+
+## 资源
+
+* [官方网站](https://github.com/sleistner/vscode-fileutils)
 
 ## 使用
 
