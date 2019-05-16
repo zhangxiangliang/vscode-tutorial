@@ -64,4 +64,4 @@
 
 快速打开 终端 可以使用快捷键 <code>command + `</code>。
 
-快速打开 调试控制台 可以使用快捷键 `control+ shift + y`。
+快速打开 调试控制台 可以使用快捷键 `command+ shift + y`。
