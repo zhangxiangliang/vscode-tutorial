@@ -14,6 +14,7 @@
 
 ## File Utils
 File Utils 提供了复制、删除、创建文件等操作，使用方法可以查看 [File Utils - 文件工具](extension-file-utils.md)。
+
 ## 一起成长
 
 如果您感觉有收获可以点赞关注`激励我`，也欢迎到 [Github](https://github.com/zhangxiangliang/vscode-tutorial) 加个 star。

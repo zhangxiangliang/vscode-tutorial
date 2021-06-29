@@ -12,6 +12,7 @@
 * 网站正在建设中。
 * emmm，打赏图标还没有补上。
 * 不排除补全 gif 和 图片 完善整个教程的可能，希望不会饿死。
+
 ## 一起成长
 
 如果您感觉有收获可以点赞关注`激励我`，也欢迎到 [Github](https://github.com/zhangxiangliang/vscode-tutorial) 加个 star。

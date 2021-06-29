@@ -20,6 +20,7 @@
 * 输入 `File: New File Relative to Project Root` 可以相对于当前根目录创建文件。
 * 输入 `File: New File Relative to Current View` 可以相对于当前打开的文件路径创建文件。
 * 输入 `File: Move` 会显示当前打开文件的路径，可以修改文件路径来实现移动文件和修改文件。
+
 ## 一起成长
 
 如果您感觉有收获可以点赞关注`激励我`，也欢迎到 [Github](https://github.com/zhangxiangliang/vscode-tutorial) 加个 star。

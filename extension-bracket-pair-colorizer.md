@@ -32,6 +32,7 @@
 * `bracketPairColorizer.consecutivePairColors` 配置连续颜色对。
 * `bracketPairColorizer.independentPairColors` 配置独立颜色对。
 * `bracketPairColorizer.excludedLanguages` 配置不需要使用括号美化的文件扩展。
+
 ## 一起成长
 
 如果您感觉有收获可以点赞关注`激励我`，也欢迎到 [Github](https://github.com/zhangxiangliang/vscode-tutorial) 加个 star。

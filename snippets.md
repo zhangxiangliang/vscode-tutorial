@@ -35,6 +35,7 @@ function PushMeTop() {
 ```
 
 上面代码片段中使用了 `$1` 和 `$2` 表示当使用代码段时按下 `tab` 时会按照序号顺序跳转到对应的位置。如果需要使用默认变量名可以使用 `${id:variable}` 的形式来实现例如 ${1:hello}，对于同一个变量名在重新编辑的时候会同步操作。
+
 ## 一起成长
 
 如果您感觉有收获可以点赞关注`激励我`，也欢迎到 [Github](https://github.com/zhangxiangliang/vscode-tutorial) 加个 star。

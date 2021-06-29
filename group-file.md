@@ -25,6 +25,7 @@
 ## 关闭分组
 
 使用 `command + w` 将当前分组的标签都关闭后，既可关闭掉分组。
+
 ## 一起成长
 
 如果您感觉有收获可以点赞关注`激励我`，也欢迎到 [Github](https://github.com/zhangxiangliang/vscode-tutorial) 加个 star。

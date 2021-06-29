@@ -65,6 +65,7 @@
 快速打开 终端 可以使用快捷键 <code>command + `</code>。
 
 快速打开 调试控制台 可以使用快捷键 `command+ shift + y`。
+
 ## 一起成长
 
 如果您感觉有收获可以点赞关注`激励我`，也欢迎到 [Github](https://github.com/zhangxiangliang/vscode-tutorial) 加个 star。

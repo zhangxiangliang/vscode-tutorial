@@ -52,6 +52,7 @@
 ## 快速打开当前文件
 
 使用 `command(短按一下) + k + r` 可以快速打开当前文件。
+
 ## 一起成长
 
 如果您感觉有收获可以点赞关注`激励我`，也欢迎到 [Github](https://github.com/zhangxiangliang/vscode-tutorial) 加个 star。
