@@ -25,3 +25,15 @@
 ## 关闭分组
 
 使用 `command + w` 将当前分组的标签都关闭后，既可关闭掉分组。
+
+## 一起成长
+
+> 本系列文章给出的包括但不限于数据分析、投资建议，
+> 均不承担您对投资的成败所带来的风险。
+> 投资有风险，入市需谨慎。
+
+- 在困惑的城市里总少不了并肩同行的 `伙伴` 让我们一起成长。
+- 如果您想让更多人看到文章可以点个 `点赞`。
+- 如果您想激励小二可以到 [Github](https://github.com/zhangxiangliang/vscode-tutorial) 给个 `小星星`。
+
+> 本文原稿来自 [ZhangXiangLiang](https://github.com/zhangxiangliang)
