@@ -52,15 +52,8 @@
 ## 快速打开当前文件
 
 使用 `command(短按一下) + k + r` 可以快速打开当前文件。
-
 ## 一起成长
 
-> 本系列文章给出的包括但不限于数据分析、投资建议，
-> 均不承担您对投资的成败所带来的风险。
-> 投资有风险，入市需谨慎。
-
-- 在困惑的城市里总少不了并肩同行的 `伙伴` 让我们一起成长。
-- 如果您想让更多人看到文章可以点个 `点赞`。
-- 如果您想激励小二可以到 [Github](https://github.com/zhangxiangliang/vscode-tutorial) 给个 `小星星`。
+如果您感觉有收获可以点赞关注`激励我`，也欢迎到 [Github](https://github.com/zhangxiangliang/vscode-tutorial) 加个 star。
 
 > 本文原稿来自 [ZhangXiangLiang](https://github.com/zhangxiangliang)
